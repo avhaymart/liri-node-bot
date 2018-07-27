@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/avhaymart/liri-node-bot#readme",
   "dependencies": {
+    "chalk": "^2.4.1",
     "dotenv": "^6.0.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.0.0",
     "node-spotify-api": "^1.0.7",
     "request": "^2.87.0",
     "twitter": "^1.7.1"
