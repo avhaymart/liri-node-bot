@@ -95,17 +95,12 @@ if (process.argv[3]) {
             }
         } else if (response.command == "See Recent Tweets") {
             var params = {
-                screen_name: 'nodejs'
+                screen_name: 'SquidtardWntcls'
             };
             client.get('statuses/user_timeline', params, function (error, tweets, response) {
                 if (!error) {
-                    // The Twitter search isn't displaying my
-                    // dummy account tweets, it's displaying
-                    // other tweets for somewhere else. I'm trying
-                    // to figure it out but for now this is what
-                    // I have :(
-                    for (i = 0; i < 20; i++) {
-                        console.log("\n----------------\n" + tweets[i].text + "\n----------------");
+                    for (i = 0; i < tweets.length; i++) {
+                            console.log("\n----------------\n" + tweets[i].text + "\n----------------");
                     }
                 }
             });
