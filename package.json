@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/avhaymart/liri-node-bot#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "dotenv": "^6.2.0",
     "fs": "0.0.2",
     "inquirer": "^6.2.2",
