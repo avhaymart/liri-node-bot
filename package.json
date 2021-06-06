@@ -19,7 +19,7 @@
   "homepage": "https://github.com/avhaymart/liri-node-bot#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "dotenv": "^6.2.0",
+    "dotenv": "^10.0.0",
     "fs": "0.0.2",
     "inquirer": "^6.2.2",
     "lodash": "^4.17.11",
